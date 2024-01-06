@@ -21,7 +21,6 @@ function run(){
         <p>${inputField["skills"].value}</p>
         <h2>About</h2>
         <p>${about}</p>
-        <button onclick="print()" class="print">Print</button>
     </div>
     `
 }

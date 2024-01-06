@@ -3,6 +3,14 @@
     padding: 0%;
     box-sizing: border-box;
 }
+@media print{
+    body *{
+        display: none;
+    }
+    .output-container *{
+        display: block;
+    }
+}
 form{
     display: flex;
     align-items: center;
