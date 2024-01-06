@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.main,.others,.image{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 10px 10px 10px;
+}
+label{
+    font-size: 2rem;
+}
+.output-container button{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    font-size: 2.5rem;
+    padding: 10px 10px 10px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.output-container{
+    display: flex;
+    justify-content:center;
+    padding: 10%;
+    gap: 100px;
+    line-height: 2.5rem;
+    flex-wrap: wrap;
+}
+.output-role{
+    margin-top: 70px;
+}
+.output-role h2{
+    font-size: 2rem;
+}
+.output-role p{
+    font-size: 1.5rem;
+}
+.hide{
+    display: none;
+}
+button{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 10px 10px;
+    font-size: 2.5rem;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="info" id="info">
+        <form class="inputfield" id="inputfield">
+            <div class="main">
+            <label>Name</label>
+            <input type="text" name="name">
+            <label>Email</label>
+            <input type="email" name="email">
+            <label>phone no.</label>
+            <input type="number" name="number">
+        </div>
+        <div class="others">
+            <label>Role</label>
+            <input type="text" name="role">
+            <label>Skills</label>
+            <input type="text" name="skills">
+            <label>About</label>
+            <textarea id="about"></textarea>
+            </div>
+        </form>
+        </div>
+        <div class="output-container" id="output-container">
+            <button onclick="run()">Generate</button>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
