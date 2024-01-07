@@ -65,7 +65,7 @@ button:active{
     }
     .btn{
         position: absolute;
-        top: 110%;
+        top: 100%;
         left: 50%;
         transform: translate(-50%,-50%);
     }
