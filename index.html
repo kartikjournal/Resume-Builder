@@ -3,34 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Resume-Builder</title>
 </head>
 <body>
-    <div class="info" id="info">
-        <form class="inputfield" id="inputfield">
-            <div class="main">
-            <label>Name</label>
-            <input type="text" name="name">
-            <label>Email</label>
-            <input type="email" name="email">
-            <label>phone no.</label>
-            <input type="number" name="number">
-        </div>
-        <div class="others">
-            <label>Role</label>
-            <input type="text" name="role">
-            <label>Skills</label>
-            <input type="text" name="skills">
-            <label>About</label>
-            <textarea id="about"></textarea>
+    <div class="container" id="hide">
+        <div class="user-input">
+            <form class="inputField">
+                <div class="left">
+                <label>
+                    NAME
+                </label>
+                <input type="text" name="name" id="name">
+                <label>
+                    ABOUT
+                </label>
+                <textarea id="about"></textarea>
+                <label>
+                    SKILLS
+                </label>
+                <input type="text" name="skills" id="skills">
+                <label>
+                    FUN FACT
+                </label>
+                <input type="text" name="fact" id="fact">
+                <label>
+                    Github
+                </label>
+                <input type="url" id="giturl" name="giturl">
             </div>
-        </form>
+            <div class="right">
+                <label>
+                    WORK EXPEIENCE
+                </label>
+                <input type="text" name="work" id="work">
+                <label>
+                    ACADEMIC
+                </label>
+                <textarea id="academic"></textarea>
+                <label>
+                    PROJECTS
+                </label>
+                <textarea id="project"></textarea>
+                <label>
+                    LINKEDIN
+                </label>
+                <input type="url" id="linkurl" name="linkurl">
+            </div>
+            </form>
         </div>
-        <div class="output-container" id="output-container">
+        <div class="btn">
             <button onclick="run()">Generate</button>
+        </div>
     </div>
-    <button onclick="print()" class="print">Print</button>
+    <div class="solve" id="solve">
+
+
+    </div>
     <script src="./js/app.js"></script>
 </body>
 </html>
